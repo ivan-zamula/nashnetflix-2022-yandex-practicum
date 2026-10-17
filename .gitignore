@@ -61,3 +61,13 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Local environments, editor files and generated output
+.idea/
+*.iml
+.venv/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.env*
+!env.example
